@@ -13,5 +13,14 @@ namespace Remote_Debug_Demo
         {
 
         }
+
+
+        static int i = 0;
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string val = i.ToString();
+            i++;
+            Button1.Text = val;
+        }
     }
 }

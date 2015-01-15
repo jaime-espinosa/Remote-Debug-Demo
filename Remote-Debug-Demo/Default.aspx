@@ -4,7 +4,11 @@
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
-                <h1><%: Title %>.</h1>
+                <h1><%: Title %>.<asp:Button ID="Button2" runat="server" Height="38px" OnClick="Button2_Click" Text="Button" Width="87px" />
+                </h1>
+            </hgroup>
+            <asp:Button ID="Button1" runat="server" Text="Button" />
+            <hgroup>
                 <h2>Modify this template to jump-start your ASP.NET application.</h2>
             </hgroup>
             <p>
